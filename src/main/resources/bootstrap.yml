@@ -1,0 +1,11 @@
+server:
+  port: 8096
+spring:
+  application:
+    name: order-service-gateway
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: dev
+      label: dev
+      name: order-service-gateway
